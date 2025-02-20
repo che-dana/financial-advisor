@@ -13,13 +13,6 @@ AZURE_OPENAI_API_KEY = st.secrets("AZURE_OPENAI_API_KEY")
 AZURE_OPENAI_API_VERSION = st.secrets("AZURE_OPENAI_API_VERSION")
 AZURE_OPENAI_DEPLOYMENT_NAME = st.secrets("AZURE_OPENAI_DEPLOYMENT_NAME")  # Add this line
 
-
-
-    # Print debug information (remove in production)
-    st.write("API Version:", AZURE_OPENAI_API_VERSION)
-    st.write("Endpoint:", AZURE_OPENAI_ENDPOINT)
-    st.write("API Key exists:", bool(AZURE_OPENAI_API_KEY))
-
     client = openai.AzureOpenAI(
         api_version=AZURE_OPENAI_API_VERSION,
         azure_endpoint=AZURE_OPENAI_ENDPOINT,
