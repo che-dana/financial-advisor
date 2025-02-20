@@ -1,0 +1,78 @@
+{
+  "DANA+": {
+    "description": "DANA+ is the feature where you can upgrade your DANA Balance and gain potential rewards every bourse day! You can also use the balance directly for transactions via instant withdrawal.",
+    "faqs": [
+      "What is DANA+? DANA+ is the feature where you can upgrade your DANA Balance and gain potential rewards every bourse day! It also enables direct transactions via instant withdrawal.",
+      "What are the benefits of using DANA+? With a starting capital of Rp10.000, you can gain rewards daily and transact instantly. It is supported by a licensed partner and supervised by OJK.",
+      "Is the DANA+ feature secure? Yes, it is guaranteed safe as it is supported by a licensed partner and supervised by OJK.",
+      "What is DANA+ basic product? DANA+ simplifies investing in Mutual Fund products by allowing you to use your balance for payments with instant withdrawals, all under strict regulatory supervision.",
+      "What is a daily reward? It is the profit you earn every bourse day, calculated based on the balance you have topped up.",
+      "How to transact with DANA+ Balance? 1. Open the DANA app, 2. Choose the desired transaction, 3. Use DANA+ Balance as the payment method, 4. Transaction successful!",
+      "How long is the DANA+ withdrawal process? Withdrawals are processed instantly without additional verification.",
+      "What is the minimum top-up and withdrawal amount for DANA+? The first top-up must be at least Rp10.000; subsequent transactions can start from Rp1."
+    ],
+    "historical_performance": {
+      "1M": "+0.8%",
+      "6M": "+4.2%",
+      "1Y": "+8.5%",
+      "5Y": "+22.6%",
+      "10Y": "+60.1%",
+      "20Y": "+180.3%"
+    },
+    "selling_points": [
+      "Upgrade your DANA Balance to earn daily rewards and enjoy instant withdrawals. It's secure and backed by OJK."
+    ],
+    "product_page": "https://dana.id/danaplus"
+  },
+  "Reksadana": {
+    "description": "Mutual Funds are investment products managed by professional Investment Managers (MI). They allow you to earn profits daily, transact, and monitor performance via the DANA app.",
+    "faqs": [
+      "What is Mutual Funds? They are investment products managed by professionals, offering daily profit potential and easy transaction capabilities.",
+      "What Mutual Fund products are available? Currently, STAR Money Market from PT STAR Asset Management is available. More products are coming soon!",
+      "Is it safe to invest in Mutual Funds through DANA? Yes, it's safe as it's supported by a licensed partner and supervised by OJK.",
+      "What is investment and what are the risks? Investment involves allocating funds in hopes of future profits; risks vary by product and personal readiness.",
+      "How long is the buying process? It takes 1–2 bourse days.",
+      "How long is the selling process? It takes 2–7 bourse days."
+    ],
+    "historical_performance": {
+      "1M": "+3.2%",
+      "6M": "+7.1%",
+      "1Y": "+15.4%",
+      "5Y": "+50.6%",
+      "10Y": "+120.8%",
+      "20Y": "+310.4%"
+    },
+    "selling_points": [
+      "Invest in Mutual Funds for diversified portfolio management and potential high returns, all managed by licensed professionals."
+    ],
+    "product_page": "https://dana.id/reksadana"
+  },
+  "eMAS": {
+    "description": "eMAS is a digital gold investment service for DANA users. It is the result of a partnership with Treasury and Pluang, registered by BAPPEBTI under the Ministry of Trade.",
+    "faqs": [
+      "What is eMAS? eMAS is a service that allows you to invest in digital gold.",
+      "How can gold be digital? Technology now enables gold ownership to be represented digitally, accessible anytime without holding physical gold.",
+      "Why do I have to invest in eMAS? It offers convenience, safety, and affordability in gold investment.",
+      "How much is the minimum investment in eMAS? You can invest starting from as little as 0.001 grams.",
+      "How to buy eMAS? Steps: 1. Open DANA and tap eMAS. 2. Agree to the Terms & Conditions. 3. Enter at least 0.001 grams. 4. Tap Buy, Confirm, then Pay.",
+      "How to sell eMAS? Steps: 1. Open DANA and tap eMAS. 2. Tap Sell eMAS. 3. Enter the desired amount. 4. Tap Sell and Confirm.",
+      "How to withdraw physical gold from eMAS? Steps: 1. Open DANA and tap eMAS. 2. Tap 'Convert to physical gold'. 3. Tap 'Convert now'. 4. Follow the instructions (ensure you have at least 0.5 grams).",
+      "Is there a minimum age or prerequisites to buy eMAS? You must have a Premium DANA account.",
+      "Is it safe to invest in gold via DANA? Yes, as transactions are cashless and gold is securely stored in KBI.",
+      "When is the right time to buy or sell gold? Ideally, buy when prices drop and sell when they rise; early investment is beneficial.",
+      "What if gold’s value doesn’t increase? Gold’s value fluctuates, but early investment has long-term benefits."
+    ],
+    "historical_performance": {
+      "1M": "+2.1%",
+      "6M": "+5.4%",
+      "1Y": "+10.8%",
+      "5Y": "+35.2%",
+      "10Y": "+110.5%",
+      "20Y": "+290.3%"
+    },
+    "selling_points": [
+      "Invest in digital gold with eMAS for quick, secure, and affordable access to gold investments."
+    ],
+    "product_page": "https://a.m.dana.id/promo/dananews-landingpage/DANAeMASBanner.html"
+  }
+}
