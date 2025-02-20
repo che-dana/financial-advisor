@@ -8,10 +8,11 @@ from dotenv import load_dotenv
 # Load environment variables & API key
 # ---------------------------
 load_dotenv()
-AZURE_OPENAI_ENDPOINT = st.secrets("AZURE_OPENAI_ENDPOINT")
-AZURE_OPENAI_API_KEY = st.secrets("AZURE_OPENAI_API_KEY")
-AZURE_OPENAI_API_VERSION = st.secrets("AZURE_OPENAI_API_VERSION")
-AZURE_OPENAI_DEPLOYMENT_NAME = st.secrets("AZURE_OPENAI_DEPLOYMENT_NAME")  # Add this line
+AZURE_OPENAI_ENDPOINT = st.secrets["AZURE_OPENAI_ENDPOINT"]
+AZURE_OPENAI_API_KEY = st.secrets["AZURE_OPENAI_API_KEY"]
+AZURE_OPENAI_API_VERSION = st.secrets["AZURE_OPENAI_API_VERSION"]
+AZURE_OPENAI_DEPLOYMENT_NAME = st.secrets["AZURE_OPENAI_DEPLOYMENT_NAME"]
+
 client = openai.AzureOpenAI(
         api_version=AZURE_OPENAI_API_VERSION,
         azure_endpoint=AZURE_OPENAI_ENDPOINT,
