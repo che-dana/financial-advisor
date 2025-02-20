@@ -12,8 +12,7 @@ AZURE_OPENAI_ENDPOINT = st.secrets("AZURE_OPENAI_ENDPOINT")
 AZURE_OPENAI_API_KEY = st.secrets("AZURE_OPENAI_API_KEY")
 AZURE_OPENAI_API_VERSION = st.secrets("AZURE_OPENAI_API_VERSION")
 AZURE_OPENAI_DEPLOYMENT_NAME = st.secrets("AZURE_OPENAI_DEPLOYMENT_NAME")  # Add this line
-
-    client = openai.AzureOpenAI(
+client = openai.AzureOpenAI(
         api_version=AZURE_OPENAI_API_VERSION,
         azure_endpoint=AZURE_OPENAI_ENDPOINT,
         api_key=AZURE_OPENAI_API_KEY,
