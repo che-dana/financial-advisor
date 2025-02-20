@@ -19,10 +19,6 @@ client = openai.AzureOpenAI(
         default_headers=None
     )
 
-except Exception as e:
-    st.error(f"Error initializing Azure OpenAI client: {str(e)}")
-    raise
-
 # ---------------------------
 # Load Knowledge Base
 # ---------------------------
